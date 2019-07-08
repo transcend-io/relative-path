@@ -1,0 +1,49 @@
+{
+  "name": "@transcend-io/relative-path",
+  "version": "1.0.0",
+  "description": "Simple class for manipulating files from a relative path",
+  "main": "build/index.js",
+  "homepage": "https://github.com/transcend-io/relative-path#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/transcend-io/relative-path.git"
+  },
+  "author": "Transcend Privacy Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/transcend-io/relative-path/issues"
+  },
+  "scripts": {
+    "####### Linting #######": "",
+    "lint": "eslint . --cache --ext .js,.ts,.tsx,.jsx",
+    "ts:lint": "tslint ./src/**/*.ts",
+    "####### Testing #######": "",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "####### Build #######": "",
+    "prepare": "npm run build",
+    "build": "rimraf dist && tsc",
+    "build:watch": "tsc --watch"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "@types/mkdirp": "^0.5.2",
+    "@types/node": "^12.6.0",
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-import-resolver-typescript": "^1.1.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "npm-check": "^5.9.0",
+    "prettier": "^1.17.1",
+    "rimraf": "^2.6.3",
+    "tslint": "^5.18.0",
+    "tslint-microsoft-contrib": "^6.2.0",
+    "typescript": "^3.5.2"
+  }
+}
