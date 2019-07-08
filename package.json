@@ -1,6 +1,6 @@
 {
   "name": "@transcend-io/relative-path",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple class for manipulating files from a relative path",
   "main": "build/index.js",
   "homepage": "https://github.com/transcend-io/relative-path#readme",
@@ -13,6 +13,11 @@
   "bugs": {
     "url": "https://github.com/transcend-io/relative-path/issues"
   },
+  "files": [
+    "build/**/*",
+    "src/**/*",
+    "tsconfig.json"
+  ],
   "scripts": {
     "####### Linting #######": "",
     "lint": "eslint . --cache --ext .js,.ts,.tsx,.jsx",
