@@ -10,5 +10,8 @@
     "outDir": "./build",
     "types": ["node"],
     "strict": true
-  }
+  },
+  "include": [
+    "src/**/*",
+  ],
 }
